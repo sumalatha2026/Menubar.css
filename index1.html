@@ -4,7 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <style>
+        h2{
+    color: blue;
+}
+.d1{
+    border: 3px solid black;
+    width: 35px;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
+.d1 div{
+    border: 2px solid black;
+    margin: 5px;
+}
+.d2 h3{
+    display: none;
+}
+.d1:active + .d2 h3{
+    display: block;
+    margin-left: 60px;
+    color: cornflowerblue;
+}
+    </style>
 </head>
 <body>
     <h2>Click on the menu icon to see the menu:</h2>
